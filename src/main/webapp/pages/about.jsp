@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>ROYAL CARS - Car Rental HTML Template</title>
+    <title>Adware</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -76,10 +76,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="index" class="nav-item nav-link ">Home</a>
-                    <a href="about" class="nav-item nav-link active">About</a>
-                    <a href="service" class="nav-item nav-link ">Service</a>
-                    <a href="contact" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="service.html" class="nav-item nav-link ">Service</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="SignUpPage.html" class="nav-item nav-link">Login/Signup</a>
                 </div>
             </div>
         </nav>

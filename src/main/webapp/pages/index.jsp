@@ -76,10 +76,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="index" class="nav-item nav-link active">Home</a>
-                    <a href="about" class="nav-item nav-link">About</a>
-                    <a href="service" class="nav-item nav-link ">Service</a>
-                    <a href="contact" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link ">Service</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="SignUpPage.html" class="nav-item nav-link">Login/Signup</a>
                 </div>
             </div>
         </nav>
@@ -89,16 +90,26 @@
 
 
 <!-- Search Start -->
-<form action="/buyingPage" id="search_form" method="post">
+<form id="search_form">
 <div class="container-fluid bg-white pt-3 px-lg-5">
     <div class="row mx-n2">   
-        <div class="col-xl-4 col-lg-4 col-md-6 px-2">
-            <input type="text" class=" custom-select px-4 mb-3" style="height: 50px; " placeholder="Enter model">
+        <div class="col-xl-3 col-lg-3 col-md-6 px-2">
+            <input type="text" class=" custom-select px-4 mb-3" style="height: 50px; " placeholder="Enter Brand">
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 px-2">
-            <input type="text" class=" custom-select px-4 mb-3" style="height: 50px;" placeholder="Enter Brand">
+        <div class="col-xl-3 col-lg-3 col-md-6 px-2 form-group">
+            <select class="custom-select px-4" style="height: 50px;" required="required">
+                <option selected>Category</option>
+                <option value="1">Sedans</option>
+                <option value="2">Suv</option>
+                <option value="3">Trucks</option>
+                <option value="4">MiniVans</option>
+                <option value="5">Sport</option>
+            </select>
         </div>
-        <div class="col-xl-4 col-lg-4 col-md-6 px-2">
+        <div class="col-xl-3 col-lg-3 col-md-6 px-2">
+            <input type="text" class="custom-select px-4 mb-3" style="height: 50px;" placeholder="Your Budget">
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-6 px-2">
             <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;">Search</button>
         </div>
         
@@ -107,15 +118,15 @@
 </form>
 
  <!-- Sell Start -->
-<form action="SellingPage" method="post">
+<!-- <form id="sell_form"> -->
     <div class="container-fluid bg-white pt-3 px-lg-5">
         <div class="row mx-n2">
-        <div class="col-xl-12 col-lg-4 col-md-6 px-2">
-            <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;"><b>Sell</b></button>
+        <div class="col-xl-12 col-lg-12 col-md-12 px-2">
+            <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;  "><b>Sell</b></button>
         </div>
         </div>
         </div>
-</form>
+<!-- </form> -->
 <!-- Sell End -->
 
     <!-- Carousel Start -->
@@ -128,7 +139,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Buy A Car</h4>
                             <h1 class="display-1 text-white mb-md-4">Best Selling Cars In Your Location</h1>
-                            <a href="buyingPage" class="btn btn-primary py-md-3 px-md-5 mt-2">Explore Now</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Explore Now</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +149,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Sell A Car</h4>
                             <h1 class="display-1 text-white mb-md-4">Buyers Waiting For Your Car</h1>
-                            <a href="SellingPage" class="btn btn-primary py-md-3 px-md-5 mt-2">Sell Now</a>
+                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Sell Now</a>
                         </div>
                     </div>
                 </div>

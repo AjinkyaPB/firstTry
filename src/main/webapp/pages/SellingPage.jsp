@@ -78,10 +78,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                    <a href="index" class="nav-item nav-link active">Home</a>
-                    <a href="about" class="nav-item nav-link">About</a>
-                    <a href="service" class="nav-item nav-link ">Service</a>
-                    <a href="contact" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link ">Service</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="SignUpPage.html" class="nav-item nav-link">Login/Signup</a>
                 </div>
             </div>
         </nav>
@@ -94,7 +95,7 @@
     <!-- Car Booking Start -->
     <div class="container-fluid pb-5">
         <div class="container">
-            <form>
+            <form action="/SellingForm" method="post">
                 <div class="row mx-n2">
                 <div class="col-lg-12">
                     <h2 class="mb-4">Personal Detail</h2>
@@ -161,6 +162,16 @@
                                     <option value="5">CNG And Hybrid</option>
                                 </select>
                             </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 form-group">
+                                <select class="custom-select px-4" style="height: 50px;" required="required">
+                                    <option selected>Category</option>
+                                    <option value="1">Sedans</option>
+                                    <option value="2">Suv</option>
+                                    <option value="3">Trucks</option>
+                                    <option value="4">MiniVans</option>
+                                    <option value="5">Sport</option>
+                                </select>
+                            </div>
                             
                             <div class="col-xl-6 col-lg-6 col-md-6 form-group">
                                 <input type="text" class="form-control p-4" placeholder="Brand Name" required="required">
@@ -171,13 +182,6 @@
                             </div>
     
                         </div>
-                            
-
-
-                       
-
-
-
                         <h5 style="opacity: 0.7;">Upload Images </h5>
                         <div class="form-group">
                             <label for="imageUpload" style="display: inline-block; width: 150px; height: 150px; border: 1px dashed #ccc; text-align: center; line-height: 150px; cursor: pointer;">

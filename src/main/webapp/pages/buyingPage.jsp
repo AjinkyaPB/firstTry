@@ -76,10 +76,11 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                 <div class="navbar-nav ml-auto py-0">
-                  <a href="index" class="nav-item nav-link active">Home</a>
-                    <a href="about" class="nav-item nav-link">About</a>
-                    <a href="service" class="nav-item nav-link ">Service</a>
-                    <a href="contact" class="nav-item nav-link">Contact</a>
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link ">Service</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="SignUpPage.html" class="nav-item nav-link">Login/Signup</a>
                 </div>
             </div>
         </nav>
@@ -106,6 +107,18 @@
     </div>
     </form>
     
+     <!-- Sell Start -->
+    <form id="sell_form">
+        <div class="container-fluid bg-white pt-3 px-lg-5">
+            <div class="row mx-n2">
+            <div class="col-xl-12 col-lg-4 col-md-6 px-2">
+                <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;"><b>Sell</b></button>
+            </div>
+            </div>
+            </div>
+    </form>
+    <!-- Sell End -->
+
     <!-- Rent A Car Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
