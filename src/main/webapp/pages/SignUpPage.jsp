@@ -104,9 +104,9 @@
                             <center>
                                 <div class="">
                                     <div class="col-xl-6 col-lg-6 col-md-6 form-group my-5">
-                                        <input type="email" id="EnterEmail" class="form-control p-4 my-3" placeholder="Enter Email" required="required">
-                                        <input type="number"  class="form-control p-4 my-3" placeholder="Create Password" required="required">
-                                        <input type="email" id="EnterEmail" class="form-control p-4 my-3" placeholder="Confirm Passsword" required="required">
+                                        <input type="text" id="EnterEmail" class="form-control p-4 my-3" name="email" placeholder="Enter Email" required="required">
+                                        <input type="text"  class="form-control p-4 my-3" name="password" placeholder="Create Password" required="required">
+                                        <input type="text" id="EnterEmail" class="form-control p-4 my-3" name="cpassword" placeholder="Confirm Passsword" required="required">
 
                                     </div>
                             </center>
@@ -115,7 +115,7 @@
                                 <div class="form-group">      
                                     <center>
                                     <div class="col-xl-2 col-lg-2 col-md-2 px-2">
-                                        <button class="btn btn-primary btn-block mb-3" onclick="getVerify()" style="height: 50px;">Get OTP</button>
+                                        <button class="btn btn-primary btn-block mb-3" type="submit" style="height: 50px;">Ragister</button>
                                     </div>
                                     <h5 style="color: gray;">OR </h5>
                                     <a href="LogInPage" style="color: rgb(252, 251, 251); font-weight: 700;"><u>Login with Email</u></a>
