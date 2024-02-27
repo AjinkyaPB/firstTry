@@ -66,7 +66,7 @@ public class HomeController {
 		return "SignUpPage";
 		
 	}
-	@PostMapping("/ragisterdata")
+	@PostMapping("/RegistrationForm")
 	public String two(@ModelAttribute("user") users user) {
 		service.register(user);
 		return "redirect:/LogInPage";
