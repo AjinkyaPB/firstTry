@@ -46,7 +46,18 @@ public class HomeController {
 		return "SellingPage";
 
 	}
-	
+	@RequestMapping("/LogInPage")
+	public String LogInPage()
+	{
+		return "LogInPage";
+		
+	}
+	@RequestMapping("/SignUpPage")
+	public String SignUpPage()
+	{
+		return "SignUpPage";
+		
+	}
 	
 
 }
