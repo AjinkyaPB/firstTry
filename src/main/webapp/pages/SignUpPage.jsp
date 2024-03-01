@@ -105,8 +105,8 @@
                                 <div class="">
                                     <div class="col-xl-6 col-lg-6 col-md-6 form-group my-5">
                                         <input type="text" id="EnterEmail" class="form-control p-4 my-3" name="email" placeholder="Enter Email" required="required">
-                                        <input type="password"  class="form-control p-4 my-3" name="password" placeholder="Create Password" required="required">
-                                        <input type="password" id="EnterEmail" class="form-control p-4 my-3" name="cpassword" placeholder="Confirm Passsword" required="required">
+                                        <input type="text"  class="form-control p-4 my-3" name="password" placeholder="Create Password" required="required">
+                                        <input type="text" id="EnterEmail" class="form-control p-4 my-3" name="cpassword" placeholder="Confirm Passsword" required="required">
 
                                     </div>
                             </center>
