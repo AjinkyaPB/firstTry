@@ -1,5 +1,7 @@
 package com.example.demo.controller;
 
+import java.time.LocalDateTime;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -68,8 +70,14 @@ public class HomeController {
 	}
 	@PostMapping("/RegistrationForm")
 	public String two(@ModelAttribute("user") users user) {
-		service.register(user);
-		return "redirect:/LogInPage";
+		if(user.getPassword().equals(user.getCpassword())) {
+			user.setRegistrationTime(LocalDateTime.now());
+			service.register(user);
+			return "redirect:/LogInPage";
+		}
+		else{
+			return "redirect:/SignUpPage";
+		}
 	}
 
 }

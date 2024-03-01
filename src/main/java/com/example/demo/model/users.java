@@ -1,5 +1,8 @@
 package com.example.demo.model;
 
+import java.time.LocalDateTime;
+
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,8 +16,28 @@ public class users {
 	    private int uid;
 	    private String email;
 	    private String password;
+	    private String cpassword;
+	    
+	    public String getCpassword() {
+			return cpassword;
+		}
 
-	    public int getUid() {
+		public void setCpassword(String cpassword) {
+			this.cpassword = cpassword;
+		}
+
+		@Column(name = "registration_time")
+	    private LocalDateTime registrationTime;
+
+	    public LocalDateTime getRegistrationTime() {
+			return registrationTime;
+		}
+
+		public void setRegistrationTime(LocalDateTime registrationTime) {
+			this.registrationTime = registrationTime;
+		}
+
+		public int getUid() {
 	        return uid;
 	    }
 
